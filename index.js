@@ -8,4 +8,6 @@ for(let i = 0; i < divSize * divSize; i++) {
     mainContainer.appendChild(square);
     square.style.height = `${squareSize}px`;
     square.style.width = `${squareSize}px`;
+
+square.addEventListener("mouseover", () => { square.style.backgroundColor = "black";})
 }
