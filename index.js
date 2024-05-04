@@ -1,4 +1,4 @@
-const mainContainer = document.getElementsById("squarecnter");
+const mainContainer = document.getElementById("squarecnter");
 let divSize = 16;
 
 for(let i = 0; i < divSize * divSize; i++) {
