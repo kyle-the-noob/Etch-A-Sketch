@@ -1,14 +1,14 @@
 body {
     display: flex;
     justify-content: center;
+    align-content: center;
     align-items: center;
 }
 
 #squarecnter {
-    border: 2px solid grey;
-    padding: 12px 0px 12px 12px;
-    width: 40%;
+    width: 30%;
     display: flex;
+    flex: none;
     flex-wrap: wrap;
 }
 
