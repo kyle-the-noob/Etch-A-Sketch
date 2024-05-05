@@ -4,7 +4,7 @@ let divSize = 16;
 let userInput;
 
 function generateGrid () {
-    let squareSize = (divSize * 30) / divSize;
+    const squareSize = 600 / divSize - 2; 
     for(let i = 0; i < divSize * divSize; i++) {
         let square = document.createElement("div");
         square.classList.add("square");
